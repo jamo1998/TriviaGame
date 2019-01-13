@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rick and Morty Trivia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body background="https://pro2-bar-s3-cdn-cf4.myportfolio.com/4e80716921aea9ee65fd41a4f690a253/5edbd4fc017ac86c0db6bafe8367d81533a519dec0f1b649d07d37ef547f4eba097044bfbed18c8f_rw_1920.png?h=fbaf84cc2eed07bcea0f966a8cc6b6e4">
+
+
+    <div class="container" id="title">
+
+        <h1>Rick and Morty Trivia Madness!</h1>
+
+        <div id="start-div" class="start">
+
+            <button id="start-button">Start Game!</button>
+
+        </div>
+
+        <div id="timer"></div><br>
+
+        <div id="quiz">
+
+            <form id="q1" class="questionForm" data-question="1">
+                <h3>1. Who's Rick's Best Friend?</h3>
+                <ul class="list-inline">
+                    <li><input type="radio" name="q1" value="a" />Morty</li>
+                    <li><input type="radio" name="q1" value="b" />Squanchy</li>
+                    <li><input type="radio" name="q1" value="c" />Bird Person</li>
+                    <li><input type="radio" name="q1" value="d" />Jerry</li>
+                </ul>
+                <button id="submit">Submit</button>
+            </form>
+
+            <form id="q2" class="questionForm" data-question="2">
+                <h3>2. How many seasons are in Rick and Morty?</h3>
+                <ul>
+                    <li><input type="radio" name="q2" value="a" />4</li>
+                    <li><input type="radio" name="q2" value="b" />2</li>
+                    <li><input type="radio" name="q2" value="c" />5</li>
+                    <li><input type="radio" name="q2" value="d" />3</li>
+                </ul>
+                <button id="submit">Submit</button>
+            </form>
+
+            <form id="q3" class="questionForm" data-question="3">
+                <h3>3. What is Rick's biggest fear?</h3>
+                <ul>
+                    <li><input type="radio" name="q3" value="a" />Scorpions</li>
+                    <li><input type="radio" name="q3" value="b" />Aligators</li>
+                    <li><input type="radio" name="q3" value="c" />Inter-Galactic Government</li>
+                    <li><input type="radio" name="q3" value="d" />Pirates</li>
+                </ul>
+                <button id="submit">Submit</button>
+            </form>
+
+            <form id="q4" class="questionForm" data-question="4">
+                <h3>4. Rick uses a special fuel called ________________ to get around faster than anyone else in the
+                    galaxy.</h3>
+                <ul>
+                    <li><input type="radio" name="q4" value="a" />Concentrated Dark Matter</li>
+                    <li><input type="radio" name="q4" value="b" />Ricknesium</li>
+                    <li><input type="radio" name="q4" value="c" />Synthetic Fossil Fuel</li>
+                    <li><input type="radio" name="q4" value="d" />Rick's Rocket Fuel</li>
+                </ul>
+                <button id="submit">Submit</button>
+            </form>
+
+        </div>
+
+        <div id="results"></div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
